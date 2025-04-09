@@ -3,6 +3,7 @@ package org.example.bootthymeleaf.model.dto;
 import lombok.Data;
 
 @Data
-public class WordForm {
-    private String word;
+public class UpdateWordForm {
+    private String newWord;
+    private String uuid;
 }
